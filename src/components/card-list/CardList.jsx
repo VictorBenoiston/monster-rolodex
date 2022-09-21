@@ -28,16 +28,10 @@ class CardList extends Component {
             <div className='cardList'>
                 {list
                     .map((item) => {
-                        const { name, id, username, email } = item
+                        const {id} = item
                         return (
                             <div key={id} >
-                                <Card>
-                                    <h1>{name}</h1>
-                                    <img src={`https://robohash.org/${id}?set=set2&size=180x180`}
-                                        alt="`monster ${monster.name}`" />
-                                        <h4>Username: {username}</h4>
-                                    <p><u>{email}</u></p>
-                                </Card>
+                                <Card item={item}/>
                             </div>
                         );
                     })}
