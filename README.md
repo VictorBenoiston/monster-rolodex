@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Monsters Rolodex.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is my first project in React JS. 
+In this particular project, i used the class components approach. 
+Similarly, there is another project , oh which, I used the functional components approach.
+<p>Functional components Monsters Rolodex project ->
+<a href='https://github.com/VictorBenoiston/Functional-monsters-rolodex'>Link<a>.
 
 ## Available Scripts
 
